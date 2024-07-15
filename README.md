@@ -30,7 +30,7 @@
     - `menu.css`: Estilos para o menu de navegação.
     - `sections.css`: Estilos para as diferentes seções da página.
     - `footer.css`: Estilos para o rodapé.
-    - `styles.css`: Estilos gerais para todo o site.
+    - `styles.css`: Estilos com a máxima prioridade na ordem cascata, para testes.
     - `media-querys.css`: Media queries para design responsivo.
     - `card.css`: Estilos para os cartões de filmes no catálogo.
     - `animations.css`: Animações CSS usadas no site.
