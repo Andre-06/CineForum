@@ -52,6 +52,12 @@
 3. **Navegue até o Diretório do Projeto**:
      - Simplesmente abra o index.html no seu navegador preferido.
 
+## Acessando o Projeto
+
+O projeto CineForum está disponível publicamente através do link abaixo. Sinta-se à vontade para visitar e explorar a plataforma:
+
+[CineForum - https://cineforum-1jtf.onrender.com](https://cineforum-1jtf.onrender.com)
+
 ## Créditos
 
 - **Autores**:
