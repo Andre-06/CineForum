@@ -52,7 +52,15 @@
 3. **Navegue até o Diretório do Projeto**:
      - Simplesmente abra o index.html no seu navegador preferido.
 
+## Acessando o Projeto
+
+O projeto CineForum está disponível publicamente através do link abaixo. Sinta-se à vontade para visitar e explorar a plataforma:
+
+[CineForum - https://cineforum-1jtf.onrender.com](https://cineforum-1jtf.onrender.com)
+
 ## Créditos
 
-- **Autores**: André, Laura
+- **Autores**:
+    - <img src="https://avatars.githubusercontent.com/u/60292382?v=4" height=50px weight=50px> [André Araújo](https://github.com/Andre-06)
+    - <img src="https://avatars.githubusercontent.com/u/108810555?v=4" height=50px weight=50px> [Laura Daguer](https://github.com/AruDaguer)
 - **Ilustrações**: [Storyset](https://storyset.com/home)
