@@ -1,0 +1,139 @@
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.main-content header h1 {
+    margin-bottom: 1.2rem;
+}
+
+.grid-text-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        'text-content img'
+    ;
+    grid-gap: var(--gap);
+}
+
+.title-text-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.poster {
+    align-items: start;
+}
+
+.img-div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.center-title-text {
+    text-align: center;
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grid-template {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    counter-reset: grid-counter;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-template-header {
+    position: relative;
+    padding: 3rem;
+}
+
+.grid-template-header h6 {
+    padding-left: 4rem;
+}
+
+.grid-template-header h6::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+
+    left: 0;
+    top: 0;
+
+    rotate: 2deg;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 4em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating label:before {
+    content: '★';
+}
+
+.rating input:checked ~ label {
+    color: gold;
+}
+
+.rating input:hover ~ label {
+    color: gold;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating input:focus ~ label {
+    color: gold;
+}
+
+.message-group div {
+    display: flex;
+    align-items: center;
+}
+
+.message-group div p {
+    max-width: 65%;
+}
+
+.message-group {
+    display: block;
+}

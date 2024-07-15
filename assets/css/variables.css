@@ -1,0 +1,11 @@
+/* Variaveis de cores utilizadas */
+
+:root {
+    --primary-color: #0A1128;
+    --white: #FFF;
+    --black: #000;
+    --light-gray-color: #EEE;
+    --menu-height: 6.5rem;
+    --gray-color: #d5d5d5;
+    --gap: 5rem
+}

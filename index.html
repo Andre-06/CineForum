@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- CSS Incorporado dos elementos da página -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            min-width: 100%;
+            font-family: 'Open Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-size: 6rem;
+            margin-bottom: 5rem;
+            line-height: 1.2;
+        }
+
+        h2{
+            font-size: 5.5rem;
+        }
+
+        h3 {
+            font-size: 5rem;
+        }
+
+        h4 {
+            font-size: 4.5rem;
+        }
+
+        h5 {
+            font-size: 4rem;
+        }
+
+        h6 {
+            font-size: 3.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        p {
+            font-size: 2rem;
+            line-height: 1.5;
+            margin-bottom: 5rem;
+        }
+
+        div {
+            min-height: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/media-querys.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet">
+    
+</head>
+<body>
+    <header class="main-header">
+    <section class="heading main-content">
+        <h6 class="logo">
+            <a href="#">CineForum</a>
+        </h6>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="#intro">intro</a>
+                </li>
+                <li>
+                    <a href="#em-alta">em-alta</a>
+                </li>
+                <li>
+                    <a href="#catalogo">catálogo</a>
+                </li>
+                <li>
+                    <a href="#avaliacao">crítica</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    </header>
+    <div class="sections">
+        <section id="intro" class="section">
+            <div class="main-content grid-text-image">
+                <div class="title-text-div">
+                    <h1>
+                        Bem-vindo ao CineForum
+                    </h1>
+                    <p>
+                        Este é o destino ideal para os entusiastas do cinema avaliarem,
+                        revisarem e descobrirem novos filmes. Seja você um espectador casual ou um cinéfilo dedicado
+                    </p>
+                    <p>
+                        Junte-se a nós hoje e faça parte de uma comunidade onde sua voz é importante. Mergulhe no mundo do
+                        cinema como nunca antes!
+                    </p>
+                </div>
+                <div class="img-div slide-left">
+                    <img src="assets/img/moive.svg" alt="Movie Recording">
+                </div>
+            </div>
+        </section>
+        <section id="em-alta">
+            <div class="main-content">
+                <header>
+                    <h1>Em alta</h1>
+                    <p>Acompanhe os filmes do momento!</p>
+                </header>
+                <div class="grid-template">
+                    <div class="grid-content-tile-text">
+                        <header class="grid-template-header">
+                            <h6>Furiosa: uma saga Mad Max</h6>
+                        </header>
+                        <div class="img-div poster">
+                            <img src="assets/img/furiosa-poster.jpg">
+                        </div>
+                    </div>
+
+                    <div class="grid-content-tile-text">
+                        <header class="grid-template-header">
+                            <h6>Um lugar silêncioso: dia um</h6>
+                        </header>
+                        <div class="img-div poster slide-right">
+                            <img src="assets/img/lugar-silencioso-poster.webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid-content-tile-text">
+                        <header class="grid-template-header">
+                            <h6>Deadpool and Wolverine</h6>
+                        </header>
+                        <div class="img-div poster slide-right">
+                            <img src="assets/img/deadpool-poster.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo">
+            <div class="main-content">
+                <header>
+                    <h1>Catálogo</h1>
+                    <p>Confira o catálogo dos filmes avaliados disponíveis</p>
+                </header>
+                <div class="grid-gallery">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="assets/img/poster1.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="stars" style="color: gold">★★★★★</div>
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-divolta.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Sofia_123</p>
+                                <p class="synopsis">
+                                    Uma aventura nostálgica e cheia de energia, com uma trama inteligente
+                                    que brinca com viagens no tempo. O DeLorean nunca foi tão icônico.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 2.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-fightclube.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">M4theus</p>
+                                <div class="stars" style="color: gold">★★★★★</div>
+                                <p class="synopsis">
+                                    Intenso e perturbador, esse filme de David Fincher nos leva a questionar nossa própria
+                                    existência e a sociedade de consumo. Brad Pitt e Edward Norton entregam performances
+                                    marcantes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 3.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-scareface.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Isa_Bela</p>
+                                <div class="stars" style="color: gold">★★☆☆☆</div>
+                                <p class="synopsis">
+                                    Al Pacino como Tony Montana é pura explosão. Violento, ambicioso e com uma trilha
+                                    sonora inesquecível, é um clássico do gênero gangster.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 4.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-mente.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Lara_Star</p>
+                                <div class="stars" style="color: gold">★★★☆☆</div>
+                                <p class="synopsis">
+                                    Uma história de amor única, que explora memórias, identidade e a beleza do esquecimento.
+                                    Jim Carrey e Kate Winslet têm química excepcional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="assets/img/poster 5.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-et.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">P3dr0</p>
+                                <div class="stars" style="color: gold">★★★★☆</div>
+                                <p class="synopsis">
+                                    Steven Spielberg nos presenteou com uma emocionante amizade entre um garoto e um
+                                    alienígena. Um filme que aquece o coração e nos faz acreditar na magia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 6.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-matrix.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Gabi_Ninja</p>
+                                <div class="stars" style="color: gold">★★★★☆</div>
+                                <p class="synopsis">
+                                    Revolucionário em termos de efeitos visuais e filosofia. Keanu Reeves como Neo e a
+                                    icônica cena da pílula vermelha são inesquecíveis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 7.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-iluminado.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">AnaClara_27</p>
+                                <div class="stars" style="color: gold">★★★☆☆</div>
+                                <p class="synopsis">
+                                    Stanley Kubrick transforma o hotel Overlook em um pesadelo visual. Jack Nicholson
+                                    enlouquece de maneira arrepiante. “Aqui está Johnny!”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 8.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-pulpi.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Luk4sPower</p>
+                                <div class="stars" style="color: gold">★★☆☆☆</div>
+                                <p class="synopsis">
+                                    A narrativa não linear de Quentin Tarantino, os diálogos afiados e a trilha sonora cool
+                                    fazem deste um clássico cult. “Royale with Cheese”, alguém?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/assets/img/poster 9.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-pobicriatura.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Duda_Maria</p>
+                                <div class="stars" style="color: gold">★★★★☆</div>
+                                <p class="synopsis">
+                                    Um drama que mergulha nas complexidades das relações humanas. Sensível e bem
+                                    interpretado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="assets/img/poster.jpg" alt="Filme">
+                            </div>
+                            <div class="card-back">
+                                <div class="div-user-img">
+                                    <img src="assets/img/mano-caary.jpg" class="user-img">
+                                </div>
+                                <p class="nickname">Rafa_88</p>
+                                <div class="stars" style="color: gold">★★★☆☆</div>
+                                <p class="synopsis">
+                                    Brian De Palma adapta Stephen King com maestria. Sissy Spacek como Carrie é assustadora
+                                    e trágica ao mesmo tempo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacao">
+            <div class="main-content">
+                <div class="grid-text-image">
+                    <div class="title-text-div">
+                        <h1>
+                            Envie sua crítica
+                        </h1>
+                        <p>
+                            Agora é a sua vez! Envie aqui sua crítica de um filme ou série que assistiu. Dê sua opinão para nossa comunidade!
+                        </p>
+                    </div>
+                    <div class="img-div slide-left">
+                        <img src="assets/img/send.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <form>
+                        <fieldset class="data-group">
+                            <legend>Seus Dados</legend>
+                            <p>
+                                <label for="first-name">Nome</label>
+                                <input id="first-name" name="first-name" type="text" placeholder="Seu nome">
+                            </p>
+                            <p>
+                                <label for="email">E-mail</label>
+                                <input id="email" name="first-name" type="email" placeholder="Seu email">
+                            </p>
+                        </fieldset>
+                        <fieldset class="message-group">
+                            <legend>Sua crítica</legend>
+                            <div>
+                                <p>
+                                    <label for="cine">Filme</label>
+                                    <input type="text" name="cine" id="cine" placeholder="Nome do filme">
+                                </p>
+                                <div class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5">
+                                    <label for="star5" title="5 stars"></label>
+
+                                    <input type="radio" id="star4" name="rating" value="4">
+                                    <label for="star4" title="4 stars"></label>
+
+                                    <input type="radio" id="star3" name="rating" value="3">
+                                    <label for="star3" title="3 stars"></label>
+
+                                    <input type="radio" id="star2" name="rating" value="2">
+                                    <label for="star2" title="2 stars"></label>
+
+                                    <input type="radio" id="star1" name="rating" value="1">
+                                    <label for="star1" title="1 star"></label>
+                                </div>
+                            </div>
+                            <p>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="10" placeholder="Escreva sua crítica"></textarea>
+                            </p>
+                        </fieldset>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <a> By André • Laura</a>
+        <a href="https://storyset.com/home">SVG illustrations by Storyset</a>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        ➤
+        <img src="https://blastmkt.com/wp-content/uploads/2018/08/home-2-slide-rocket-shape-4.png" class="rocket">
+    </a>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.slide-left {
+    animation-name: slide-left;
+    animation-duration: 2s;
+    animation-delay: 300ms;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.back-to-top:hover {
+    background: url(https://blastmkt.com/wp-content/uploads/2018/08/seo-2-slide-1-background-4.jpg) center top;
+    background-size: auto;
+    animation: velocity 200ms linear 0s infinite normal forwards;
+    padding: 0;
+}
+
+.back-to-top:hover > .rocket {
+    display: block;
+    animation: flying 1s  0s infinite normal;
+    rotate: 90deg;
+    width: 2rem;
+    height: auto;
+}
+
+
+@keyframes flying {
+    0%   {transform: translateY(0%)}
+    50%   {transform: translateY(-50%)}
+    100%   {transform: translateY(0%)}
+}
+
+@keyframes velocity {
+    0%   {background-position: center bottom}
+    50%   {background-position: center center}
+    100%   {background-position: center top}
+}
