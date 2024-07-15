@@ -54,5 +54,7 @@
 
 ## Créditos
 
-- **Autores**: André, Laura
+- **Autores**:
+    - <img src="https://avatars.githubusercontent.com/u/60292382?v=4" height=50px weight=50px> [André Araújo](https://github.com/Andre-06)
+    - <img src="https://avatars.githubusercontent.com/u/108810555?v=4" height=50px weight=50px> [Laura Daguer](https://github.com/AruDaguer)
 - **Ilustrações**: [Storyset](https://storyset.com/home)
