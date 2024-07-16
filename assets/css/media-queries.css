@@ -49,6 +49,7 @@
     form fieldset {
         display: block;
     }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -60,7 +61,7 @@
         max-width: 100%;
     }
 
-    .rating {
+    .message-group .rating {
         display: flex;
         flex-direction: row-reverse;
         justify-content: start;
